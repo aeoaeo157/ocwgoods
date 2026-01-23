@@ -18,9 +18,15 @@
 
     border: 2px solid black;
 
-    padding: 15px 40px;
+
     border-radius: 50px;
 }
+
+.menu ul li a{
+   padding: 15px 40px;
+   display: block;
+}
+
 
 .menu ul li.active {
     background-color: #453AE0;
