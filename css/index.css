@@ -10,12 +10,12 @@
     margin: 0 auto;
     text-align: center;
 
-    margin-bottom: 200px;
+    margin-bottom: 120px;
 }
 
 .info img {
     display: inline-block;
-    width: 60px;
+    width: 50px;
 
     margin-bottom: 30px;
 }
@@ -23,7 +23,7 @@
 
 .info h2 {
     font-family: 'Pretendard';
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 500;
 
     color: rgb(95, 95, 95);
@@ -33,7 +33,7 @@
 
 .info .top {
     font-family: 'Pretendard';
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 500;
 
     color: rgb(0, 0, 0);
@@ -43,7 +43,6 @@
 
 .info p span {
     font-family: 'Pretendard';
-    font-size: 30px;
     font-weight: 700;
 
     color: #2C4CEF;
@@ -51,7 +50,7 @@
 
 .info .bottom p {
     font-family: 'Pretendard';
-    font-size: 27px;
+    font-size: 25px;
     font-weight: 600;
 
     color: rgb(48, 48, 48);
@@ -67,7 +66,7 @@
     margin: 0 auto;
 
     text-align: center;
-    margin-bottom: 170px;
+    margin-bottom: 150px;
 }
 
 .tool p {
@@ -89,3 +88,32 @@
 }
 
 
+
+
+
+/* Top 버튼 스타일 */
+.scroll-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 999;
+    cursor: pointer;
+    
+    /* 기본적으로 숨김 처리 */
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.scroll-top.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.scroll-top img {
+    width: 50px; /* 이미지 크기 조절 */
+}
+
+.scroll-top:hover {
+    transform: translateY(-5px); /* 호버 시 살짝 위로 이동 */
+}
