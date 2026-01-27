@@ -79,6 +79,62 @@ header div {
 
 
 
+/* 반응형 디자인 */
+
+/* 태블릿 (768px ~ 1024px) */
+
+@media (max-width: 900px) {
+
+
+.title {
+    max-width: 460px;
+}
+
+.title h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.title h3 {
+    font-family: 'Pretendard';
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+
+}
+
+.gnb {
+    width: 100%;
+    max-width: 1060px;
+    text-align: center;
+
+    margin: 0 auto;
+
+    margin-bottom: 100px;
+}
+
+
+.gnb ul li {
+    font-family: 'Pretendard';
+    font-size: 22px;
+    font-weight: 500;
+
+    color: rgb(126, 126, 126);
+
+    margin-right: 18px;
+    display: inline-block;
+}
+
+
+
+
+}
+
+
+
+
 
 
 

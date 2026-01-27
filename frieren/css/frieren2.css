@@ -86,3 +86,126 @@ margin-bottom: 180px;
 }
 
 
+
+
+
+
+/* 반응형 디자인 */
+
+/* 태블릿 (768px ~ 1024px) */
+
+@media (max-width: 900px) {
+
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* 가로축으로 넘치는 내용은 숨김 */
+}
+
+.menu {
+ margin-bottom: 50px;
+        padding: 0 10px; /* 양옆 여백 */
+
+}
+
+.menu ul {
+      display: flex;        /* flex 레이아웃 활성화 */
+        flex-wrap: wrap;      /* 자리가 부족하면 다음 줄로 넘김 */
+        justify-content: center; /* 가로 중앙 정렬 */
+        gap:10px;            /* 버튼 사이 간격 (상하좌우 동일) */
+        padding: 0;           /* 기본 패딩 제거 */
+    }
+
+.menu ul li {
+  /* 2개씩 배치하기 위해 너비 조정 (gap을 고려하여 50%보다 약간 작게) */
+        width: calc(50% - 40px); 
+        margin-right: 0;      /* 기존 마진 제거 */
+        box-sizing: border-box;
+        display: block;       /* 너비 적용을 위해 블록화 */
+}
+
+.menu ul li a {
+    padding: 12px 30px;
+    text-align: center;
+        font-size: 16px;      /* 모바일에 적합한 폰트 크기 */
+    
+        display: block;
+}
+
+.subtitle {
+    margin: 0 auto;
+
+    margin-bottom: 150px;
+}
+
+.subtitle .top ul li div {
+display: none;
+}
+
+.subtitle .top ul li h2 {
+text-align: center;
+        font-size: 30px;
+        margin-bottom: -20px;
+        margin-left: 0; /* PC에서 준 좌측 여백 20px 제거 */
+}
+
+.subtitle .info {
+display: block;      /* 블록 요소로 확실히 지정 */
+        width: 260px;        /* 고정 너비 유지 */
+        margin: 30px auto;   /* 상하 30px, 좌우 auto로 중앙 배치 */
+        padding: 15px;       /* 내부 여백 유지 */
+        text-align: left;    /* 내부 텍스트는 다시 왼쪽으로 정렬 */
+    }
+    
+.subtitle .info ul {
+display: block;      /* 한 줄씩 정렬되도록 변경 */
+        padding: 0;          /* 브라우저 기본 패딩 제거 */
+        margin: 0;
+        text-align: left;    /* 부모 영향 방지 */
+    }
+
+    .subtitle .info ul li {
+        display: inline-block; /* 항목명과 내용을 한 줄에 배치 */
+    }
+
+    /* 추가 팁: 상단의 타이틀과 도구 아이콘들도 중앙 정렬하면 더 자연스럽습니다 */
+    .subtitle .top ul {
+        justify-content: center;
+    }
+
+    .subtitle .info ul li h2 {
+     margin-left: 0;      /* PC의 20px 여백 제거 */
+        text-align: center;
+    }
+
+
+.subtitle .tool {
+position: absolute;
+    left: 0;
+    right: 0;
+    top: 210px; /* 원하는 위치로 수치 조절 */
+    text-align: center;
+}
+
+
+.gallery ul li {
+  margin-bottom: 10px;
+}
+
+.gallery img {
+    width: 470px;
+  
+}
+
+.gallery  ul li:last-child {
+    margin: 0;
+}
+
+
+
+/* Top 버튼 스타일 */
+.scroll-top {
+    bottom: 150px;
+}
+
+
+}
