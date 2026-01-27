@@ -132,7 +132,9 @@
     width: 30px;
 }
 
-
+.info h2 {
+    font-size: 17px;
+}
 
 .info .top {
 

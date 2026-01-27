@@ -106,22 +106,22 @@ header div {
 }
 
 .gnb {
+
     text-align: center;
 
     margin: 0 auto;
 
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
-
 
 .gnb ul li {
     font-family: 'Pretendard';
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
 
     color: rgb(126, 126, 126);
 
-    margin-right: 10px;
+    margin-right: 12px;
     display: inline-block;
 }
 
