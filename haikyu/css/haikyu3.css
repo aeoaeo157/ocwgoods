@@ -98,7 +98,6 @@ margin-bottom: 180px;
 
 
 
-
 /* 반응형 디자인 */
 
 /* 태블릿 (768px ~ 1024px) */
@@ -111,8 +110,7 @@ html, body {
 }
 
 .menu {
- margin-bottom: 50px;
-        padding: 0 10px; /* 양옆 여백 */
+ margin-bottom: 60px;
 
 }
 
@@ -126,14 +124,14 @@ html, body {
 
 .menu ul li {
   /* 2개씩 배치하기 위해 너비 조정 (gap을 고려하여 50%보다 약간 작게) */
-        width: calc(50% - 40px); 
+       width: calc(40% - 30px); 
         margin-right: 0;      /* 기존 마진 제거 */
         box-sizing: border-box;
         display: block;       /* 너비 적용을 위해 블록화 */
 }
 
 .menu ul li a {
-    padding: 12px 30px;
+    padding: 10px 15px;
     text-align: center;
         font-size: 16px;      /* 모바일에 적합한 폰트 크기 */
     
@@ -201,7 +199,7 @@ position: absolute;
 }
 
 .gallery img {
-    width: 470px;
+    width: 360px;
   
 }
 
@@ -219,6 +217,8 @@ position: absolute;
 
 
 }
+
+
 
 
 
