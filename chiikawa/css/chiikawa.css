@@ -210,5 +210,9 @@ position: absolute;
 
 
 }
-
+@media  (max-width:480px) {
+    .menu ul li a {
+        font-size: 14px;
+    }
+}
 
